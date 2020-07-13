@@ -2,10 +2,16 @@
 
 See individual font folders for license information.
 
-See `charset.txt` for a full set of test characters.
+See [`charset.txt`](charset.txt) for a full set of test characters.
 
 The corresponding Excel sheet `charset.xlsx` lists all characters and
 Unicode points for easy reference when creating or modifying a font.
+
+In order to maintain consistency among fonts included in this repository,
+please make a copy of all combined glyphs (glyphs which comprise two
+or more Unicode code points), and add [Private Use Area codepoints](unicode_pua.txt)
+for use in legacy software that does not support the necessary
+OpenType features.
 
 PRs welcome!
 
